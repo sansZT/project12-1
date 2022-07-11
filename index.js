@@ -9,13 +9,12 @@ console.log('Tính tiền lương nhân viên: ' + Luong)
 
 // tính giá trị tring bình
 // đầu vào
-var NamSo = 12345
+var num1 = 1
+var num2 =2
+var num3 =3
+var num4 =4
+var num5 =5
 // xử lý
-var num1 = Math.floor(NamSo/10000)
-var num2 = Math.floor(NamSo/1000%10)
-var num3 = Math.floor(NamSo/100%10)
-var num4 = Math.floor(NamSo/10%10)
-var num5 = NamSo%10
 var trungbinh = (num1 + num2 + num3 + num4 +num5) / 5
 // đầu ra
 console.log('Tính giá trị trung bình: ' + trungbinh)
