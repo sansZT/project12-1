@@ -42,10 +42,10 @@ console.log('- Chu vi = ' + chuvi)
 
 // tính tổng 2 ký số
 // đầu vào
-var number = 12
+var number2 = 22
 // xử lý
-var num1 = Math.floor(number/10)
-var num2 = number%10
-var tong = num1 + num2
+var num2_1 = Math.floor(number2/10)
+var num2_2 = number2%10
+var tong = num2_1 + num2_2
 // đầu ra
 console.log('Tính tổng 2 ký số: ' + tong)
